@@ -19,7 +19,7 @@ mutagen>=1.45.1
 
 1. clone this repository:
 ```bash
-git clone https://github.com/akrscoi/diva.git
+git clone https://github.com/akrscoi/di-va.git
 cd DIVA
 ```
 
