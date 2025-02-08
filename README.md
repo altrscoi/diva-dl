@@ -30,7 +30,7 @@ cd di-va
 pip install -r requirements.txt
 ```
 
-3. create a reddit application at https://www.reddit.com/prefs/apps and obtain your:
+3. create a reddit application at https://www.reddit.com/prefs/apps, select script, name it whatever, and give it the redirect url http://localhost:8080 . from there grab your:
    * Client ID
    * Client Secret
 
