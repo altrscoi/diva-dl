@@ -22,7 +22,7 @@ mutagen>=1.45.1
 1. clone this repository:
 ```bash
 git clone https://github.com/akrscoi/di-va.git
-cd DIVA
+cd di-va
 ```
 
 2. install the requirements:
