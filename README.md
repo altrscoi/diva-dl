@@ -31,8 +31,8 @@ pip install -r requirements.txt
 ```
 
 3. create a reddit application at https://www.reddit.com/prefs/apps, select script, name it whatever, and give it the redirect url http://localhost:8080 . from there grab your:
-   * Client ID
-   * Client Secret
+   * Client ID — underneath where it says "personal use script"
+   * Client Secret — next to "secret"
 
 *these will be asked for when you first start the script, and will create a config file along with them.*
 
