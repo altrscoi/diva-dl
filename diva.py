@@ -77,7 +77,7 @@ class RedditScraper:
         self.reddit = praw.Reddit(
             client_id=self.client_id,
             client_secret=self.client_secret,
-            user_agent="script:soundgasm_downloader:v1.0 (by akrscoi)"
+            user_agent="script:soundgasm_downloader:v1.0 (by b)"
         )
     
     def _load_credentials(self) -> Tuple[str, str]:
