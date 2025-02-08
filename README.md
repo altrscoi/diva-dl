@@ -1,5 +1,7 @@
 # DIVA (darling, i'm very acquisitive)
 
+yes, this repository is this simple on purpose.
+
 backstory: i made this script for a friend a few months back, found it again, polished it, and figured why not release it!!
 
 DIVA is a python-based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.) it scrapes a reddit profile to search for any soundgasm links posted by the profile, and automatically saves the audios for you. it can also be used as a standalone soundgasm downloader if you have a bunch of links you wanna download all at once.
