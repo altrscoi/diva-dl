@@ -47,10 +47,10 @@ from here on, it's quite self explanatory in the script!
 
 ## Disclaimer
 
-DIVA is designed for downloading publicly available content only. have fun, but be mindful of content creators' rights and permissions.
+DIVA is designed for downloading publicly available content. Please respect any voice actors' wishes and stances in regards to saving their audios locally.
 
 
 
 ## License
 
-MIT License - Because DIVA believes in sharing the spotlight.
+MIT License - have fun!
