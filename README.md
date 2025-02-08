@@ -4,9 +4,7 @@ backstory: i made this script for a friend a few months back, found it again, po
 
 DIVA is a python-based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.) it scrapes a reddit profile to search for any soundgasm links posted by the profile, and automatically saves the audios for you. it can also be used as a standalone soundgasm downloader if needed.
 
-this is a script i made for myself a while ago, but i figured there's probably more people looking for a quick solution to hoarding soundgasm audios just like i did. 
-
-the idea of this script was always to be as simple and straightforward as possible
+the idea of this script from the beginning was always to be as simple and straightforward as possible!
 
 ## requirements
 
