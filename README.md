@@ -52,6 +52,6 @@ from there on, diva is ready for hoarding and will guide you!!
 
 ## Disclaimer
 
-i designed diva-dl for a friend and released it out of request. i spent a very long time squashing bugs before this release. before you open an issue in the issue tracker, please make sure it's nothing on your part. i don't plan on updating this project much more as i feel it's pretty completee hehe
+i designed diva-dl for a friend and released it out of request. i spent a very long time squashing bugs before this release. before you open an issue in the issue tracker, please make sure it's nothing on your part. i don't plan on updating this project much more as i feel it's pretty complete hehe
 
 please respect any voice actors' wishes that have rules in place against archiving their audios. diva-dl is meant to download publicly avaliable audios and not infringe on anyones privacy :) nonetheless, i am not responsible for what you do with this script.
