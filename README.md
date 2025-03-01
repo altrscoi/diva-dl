@@ -1,18 +1,25 @@
-# DIVA (darling, i'm very acquisitive)
+# diva-dl 🎙️
 
-note: a rework is in progress for more hoarding fun, but this version still works pretty well so i'm gonna leave it public
+diva-dl is a one-script-python based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.). it scrapes a reddit profile to search for any soundgasm links posted by the account and automates the downloading process. it can also be used as a standalone soundgasm downloader.
 
-DIVA is a python-based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.) it scrapes a reddit profile to search for any soundgasm links posted by the profile, and automatically saves the audios for you. it can also be used as a standalone soundgasm downloader if you have a bunch of links you wanna download all at once as well.
-
-the idea of this script from the beginning was always to be as simple and straightforward as possible, therefore this is a very simple project to use and run!!
+## features
+- multi-user & multi-threading support – download from multiple reddit va profiles at once
+-  reddit thread parsing – automatically extracts soundgasm links from entire reddit threads, no manual searching needed
+- organized downloads – files are neatly sorted by voice actor username, making it have a much nicer look
+- live progress tracking – see successful vs failed downloads, real-time speed tracking, and automatic file size warnings for 2gb+ collections
+- import from text files – if you have a list of reddit/soundgasm links in a text file, diva has the ability to download them
+- safe termination handling – diva gracefully finishes current downloads instead of corrupting files
+- customizable settings – toggle multi-threading, verbosity, file size warnings, and more to fine-tune your experience
+- beautiful ui with rich – styled with spinners, progress bars, live updates, and a modern CLI experience
 
 ## requirements
 
 ```
-beautifulsoup4>=4.9.3
-praw>=7.7.0
-requests>=2.26.0
+requests>=2.28.0
+praw>=7.6.0
+beautifulsoup4>=4.11.1
 mutagen>=1.45.1
+rich>=12.5.1
 ```
 
 ## installation
@@ -32,7 +39,7 @@ pip install -r requirements.txt
    * Client ID — underneath where it says "personal use script"
    * Client Secret — next to "secret"
 
-*these will be asked for when you first start the script, and will create a config file along with them.*
+*these will be asked for when you first start the script and are essential for diva to run correctly. if you get nothing but errors when trying to download audios, you messed this part up. please open your `config.json` file and enter the correct credentials.*
 
 ## usage
 
@@ -41,14 +48,10 @@ Run the script:
 python diva.py
 ```
 
-from here on, it's quite self explanatory in the script!
+from there on, diva is ready for hoarding and will guide you!!
 
 ## Disclaimer
 
-DIVA is designed for downloading publicly available content. Please respect any voice actors' wishes and stances in regards to saving their audios locally.
+i designed diva-dl for a friend and released it out of request. i spent a very long time squashing bugs before this release. before you open an issue in the issue tracker, please make sure it's nothing on your part. i don't plan on updating this project much more as i feel it's pretty completee hehe
 
-
-
-## License
-
-MIT License - have fun!
+please respect any voice actors' wishes that have rules in place against archiving their audios. diva-dl is meant to download publicly avaliable audios and not infringe on anyones privacy :) nonetheless, i am not responsible for what you do with this script.
