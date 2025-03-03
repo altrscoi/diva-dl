@@ -1,7 +1,7 @@
 ![diva-dl](https://pixeldrain.com/api/file/g5XwNJ2p)
 #
 
-diva-dl is a one-script python based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.). it scrapes a reddit profile to search for any soundgasm links posted by the account and automates the downloading process. it can also be used as a standalone soundgasm downloader.
+diva-dl is a one-script python based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.). it scrapes a reddit profile to search for any soundgasm links (more providers soon to come) posted by the account and automates the downloading process. it can also be used as a standalone soundgasm downloader.
 
 ![example](https://pixeldrain.com/api/file/jwSP7iDy)
 
