@@ -1,6 +1,6 @@
 # diva-dl 🎙️
 
-diva-dl is a one-script-python based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.). it scrapes a reddit profile to search for any soundgasm links posted by the account and automates the downloading process. it can also be used as a standalone soundgasm downloader.
+diva-dl is a one-script python based downloader that specializes in acquiring audios from voice actor's on reddit (gwa, etc.). it scrapes a reddit profile to search for any soundgasm links posted by the account and automates the downloading process. it can also be used as a standalone soundgasm downloader.
 
 ## features
 - multi-user & multi-threading support – download from multiple reddit va profiles at once
@@ -52,6 +52,6 @@ from there on, diva is ready for hoarding and will guide you!!
 
 ## Disclaimer
 
-i designed diva-dl for a friend and released it out of request. i spent a very long time squashing bugs before this release. before you open an issue in the issue tracker, please make sure it's nothing on your part. i don't plan on updating this project much more as i feel it's pretty complete hehe
+i designed diva-dl for a friend and released it out of request. i spent a very long time squashing bugs before this release. before you open an issue in the issue tracker, please make sure it's nothing on your part. i don't plan on updating this project much more unless i reeeeallly feel like it, or if anything changes in regards to how the script works (some of you have suggested expanding beyond reddit which... i dunno, let me think about it)
 
 please respect any voice actors' wishes that have rules in place against archiving their audios. diva-dl is meant to download publicly avaliable audios and not infringe on anyones privacy :) nonetheless, i am not responsible for what you do with this script.
